@@ -1,3 +1,3 @@
 import "dotenv/config";
-import "./middleware/mongoose.middleware.js";
-import "./middleware/express.middleware.js";
+import "./middlewares/mongoose.middleware.js";
+import "./middlewares/express.middleware.js";
