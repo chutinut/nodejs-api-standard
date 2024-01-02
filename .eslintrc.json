@@ -20,11 +20,6 @@
         "no-irregular-whitespace": "error",
         "no-return-assign": "error",
         "no-const-assign": "error",
-        "node/no-deprecated-api": [
-            "error",
-            {
-                "ignoreModuleItems": ["crypto.createCipher", "crypto.createDecipher"]
-            }
-        ]
+        "node/no-deprecated-api": "error"
     }
 }
