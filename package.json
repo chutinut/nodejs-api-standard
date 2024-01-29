@@ -1,0 +1,44 @@
+{
+    "name": "nodejs-api-standard",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "precommit:check": "npx eslint .",
+        "precommit:fix": "npx eslint . --fix",
+        "development": "npx eslint . && SET NODE_ENV=development && nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chutinut/nodejs-api-standard.git"
+    },
+    "keywords": [
+        "nodejs-api"
+    ],
+    "author": "SHEDKAE, THE DEVELOPER",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/chutinut/nodejs-api-standard/issues"
+    },
+    "homepage": "https://github.com/chutinut/nodejs-api-standard#readme",
+    "type": "module",
+    "dependencies": {
+        "bson": "^6.2.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.1",
+        "express": "^4.18.2",
+        "express-rate-limit": "^7.1.5",
+        "lodash": "^4.17.21",
+        "mongoose": "^8.1.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^5.1.3",
+        "nodemon": "^3.0.3",
+        "prettier": "^3.2.4"
+    }
+}
